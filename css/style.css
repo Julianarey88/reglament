@@ -1,0 +1,16 @@
+ol {
+    list-style: none ;
+    counter-reset: li;
+}
+
+li:before {
+    counter-increment: li;
+    content:counters(li, ".") ". ";
+}
+ul {
+    list-style-type: circle;
+}
+ul li:before {
+   counter-increment: none;
+   content: " ";
+}
