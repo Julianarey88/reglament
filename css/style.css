@@ -1,16 +1,128 @@
-ol {
-    list-style: none ;
-    counter-reset: li;
+body {
+    margin: 0 30px;
+    font-family: DINPro,Arial,sans-serif;
+    font-size: 16px;
+    color: #000;
+}
+h1 {
+    margin: 0 auto 20px;
+    font-size: 36px;
+    font-weight: 400;
+    border-bottom: 3px solid #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
 }
 
+.main .text-user-format {
+    font-weight: 300;
+}
+.main .text-user-format table {
+    border-collapse: collapse;
+}
+.table-box table {
+    margin: 35px 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table-box .item {
+    text-align: left;
+}
+.table-box th {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table-box td, .table-box th {
+    border: 1px solid #ebebeb;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+.main .text-user-format table {
+    border-collapse: collapse;
+}
+
+.main .text-user-format table tbody td:first-child {
+    padding: 4px 12px;
+}
+.table-box .item {
+    text-align: left;
+}
+.main .text-user-format table tbody td {
+    padding: 4px 20px;
+}
+.main .text-user-format table td {
+    border: 1px solid #ebebeb;
+}
+.table-box td:nth-child(2n), .table-box th:nth-child(2n) {
+    background-color: #fef3e7;
+}
+.table-box .price-bold {
+    color: orange;
+    font-weight: bold;
+}
+.table-box .price {
+    text-align: center;
+}
+.table-box td, .table-box th {
+    border: 1px solid #ebebeb;
+}
+.table-box .price {
+    text-align: center;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.main .text-user-format ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.main .text-user-format ul li {
+    margin-left: 25px;
+    line-height: 140%; 
+}
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+   
+li {
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+}
 li:before {
-    counter-increment: li;
-    content:counters(li, ".") ". ";
-}
-ul {
-    list-style-type: circle;
-}
-ul li:before {
-   counter-increment: none;
-   content: " ";
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #f7941e;
+    margin: 0 8px 2px 0;
 }
