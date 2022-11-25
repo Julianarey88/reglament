@@ -1,0 +1,88 @@
+
+h1 {
+    margin: 0 auto 20px;
+    font-size: 36px;
+    font-weight: 400;
+    border-bottom: 3px solid #fafafa;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.table-box table {
+    margin: 35px 0;
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: grey;
+}
+table-box .item {
+    text-align: left;
+}
+.table-box th {
+    text-transform: uppercase;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.table-box td, .table-box th {
+    border: 1px solid #ebebeb;
+}
+.table-box td:nth-child(2n), .table-box th:nth-child(2n) {
+    background-color: #fef3e7;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+}
+
+.table-box .price-bold {
+    color: orange;
+    font-weight: bold;
+}
+.table-box .price {
+    text-align: center;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+h4 {
+    display: block;
+    font-weight: bold;
+}
+.main .text-user-format ul {
+    list-style: none;
+    margin: 20px 0;
+}
+.main .text-user-format ul li {
+    margin-left: 25px;
+    line-height: 140%; 
+}
+li {
+    list-style: none;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+   
+li:before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 6px;
+    background-color: #f7941e;
+    margin: 0 8px 2px 0;
+}
